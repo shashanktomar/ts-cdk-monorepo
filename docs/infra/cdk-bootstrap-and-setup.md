@@ -8,7 +8,7 @@ We have created a bootstrapped template using `cdk bootstrap --show-template > b
 ## Steps to bootstrap a new aws account
 
 - make sure you are pointing to the correct aws `--profile`. You can run `export AWS_PROFILE=<profile-name>`
-- run `` from root folder
+- run `yarn run cdk-bootstrap` from root folder
 
 ## Other notes about CDK setup
 
