@@ -14,7 +14,8 @@
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.2",
-    "aws-cdk": "^2.27.0"
+    "aws-cdk": "^2.27.0",
+    "esbuild": "^0.14.42"
   },
   "packageManager": "yarn@3.2.1"
 }

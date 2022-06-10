@@ -2,8 +2,22 @@
   "name": "component-one",
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "synth": "rm -rf cdk.out && cdk synth -o cdk.out -q",
+    "invoke:lambda-one": "yarn synth && sam local invoke tcm-dev-component-one-lambda-one -t ./cdk.out/tcm-dev-component-one-stack.template.json -e ./test-data/lambda-event.json"
+  },
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.99",
+    "@types/node": "10.17.27",
+    "aws-cdk": "2.27.0",
     "typescript": "^4.7.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "aws-cdk-lib": "2.27.0",
+    "cdk-core": "workspace:*",
+    "common-lib": "workspace:*",
+    "constructs": "^10.0.0"
+  }
 }

@@ -1,0 +1,6 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {},
+  "include": ["core", "infra"],
+  "exclude": ["node_modules", "cdk.out"]
+}
