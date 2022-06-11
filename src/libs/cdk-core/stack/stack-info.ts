@@ -1,7 +1,7 @@
 import { Environment, StackProps } from "aws-cdk-lib";
 import { AccountPrincipal } from "aws-cdk-lib/aws-iam";
-import { AwsEnv } from "../types";
 import { ScopedName } from "../naming";
+import { AwsEnv } from "../types";
 
 export class StackInfo implements StackProps {
   public readonly stackName: string;

@@ -5,8 +5,12 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
+    "invoke:lambda-one": "yarn synth && sam local invoke tcm-dev-component-one-lambda-one -t ./cdk.out/tcm-dev-component-one-stack.template.json -e ./test-data/lambda-event.json",
     "synth": "rm -rf cdk.out && cdk synth -o cdk.out -q",
-    "invoke:lambda-one": "yarn synth && sam local invoke tcm-dev-component-one-lambda-one -t ./cdk.out/tcm-dev-component-one-stack.template.json -e ./test-data/lambda-event.json"
+    "diff": "cdk diff",
+    "list": "cdk list",
+    "deploy:dev": "cdk deploy tcm-dev-component-one-stack",
+    "destroy:dev": "cdk destroy tcm-dev-component-one-stack"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.99",
