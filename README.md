@@ -34,10 +34,6 @@ This is a sample project to showcase typescript backend monorepo with AWS CDK
 - everything is namespaced at project, env and component level. This allows us to deploy multiple envs like dev, test etc in the same AWS account without any conflicts in AWS resource namings
 - the setup is testable for both unit and component level testing
 
-## Gotchas
-
-- add dependencies using `yarn add` and not `lerna add`. This is explained in depth [here](https://classic.yarnpkg.com/blog/2017/08/02/introducing-workspaces/)
-
 ## Practices
 
 - [ADR](./docs/adr/index.md) as explained [here](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records)
