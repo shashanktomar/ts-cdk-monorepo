@@ -37,5 +37,5 @@ This is a sample project to showcase typescript backend monorepo with AWS CDK
 ## Practices
 
 - [ADR](./docs/adr/index.md) as explained [here](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records)
-- [Conventional Commits](./docs/setup/commits-and-pull-requests.md)
+- [Conventional Commits](./docs/workflows/commits-and-pull-requests.md)
 - Infrastructure as Code using CDK
