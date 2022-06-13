@@ -18,14 +18,14 @@ This is a sample project to showcase typescript backend monorepo with AWS CDK
 ## Documentation
 
 - Developer Workflows
-  - [Dev Machine Setup](./docs/workflows/dev-machine.md)
+  - [Dev machine setup](./docs/workflows/dev-machine.md)
   - [Running code locally and housekeeping](./docs/workflows/housekeeping.md)
-  - [Making Commits and Giving Pull Request](./docs/workflows/commits-and-pull-requests.md)
-  - [Create a New Component](./docs/workflows/create-new-component.md)
+  - [Making commits and giving pull request](./docs/workflows/commits-and-pull-requests.md)
+  - [Create a new component](./docs/workflows/create-new-component.md)
 - Infrastructure
-  - [AWS Setup](./docs/infra/aws-setup.md)
+  - [AWS setup](./docs/infra/aws-setup.md)
   - [Bootstrap CDK](./docs/infra/cdk-bootstrap-and-setup.md)
-  - [Deploy Component One](./src/components/component-one/README.md)
+  - [Deploy component one](./src/components/component-one/README.md)
 - [Architecture Decision Records](./docs/adr/index.md)
 
 ## Infra code features
@@ -42,5 +42,4 @@ This is a sample project to showcase typescript backend monorepo with AWS CDK
 
 - [ADR](./docs/adr/index.md) as explained [here](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records)
 - [Conventional Commits](./docs/setup/commits-and-pull-requests.md)
-- Single Trunk Development
-- Infrastructure as Code
+- Infrastructure as Code using CDK
