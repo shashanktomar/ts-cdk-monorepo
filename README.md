@@ -8,7 +8,12 @@ This is a sample project to showcase typescript backend monorepo with AWS CDK
 - `infra`: infrastructure related things like scripts, cf etc
 - `src`: source code
   - `libs`: shared libraries which are used across components
+    - `cdk-core`: reusable cdk infra code used across all the components
+    - `common-lib`: common library used by all the components
   - `components`: all the components related to the project
+    - `common-infra`: the common infrastructure which cut across all the components
+    - `component-one`
+    - `component-two`
 
 ## Documentation
 
