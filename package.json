@@ -4,8 +4,7 @@
   "scripts": {
     "build": "yarn workspaces foreach run build",
     "cdk-bootstrap": "yarn workspace common-infra run bootstrap",
-    "list": "yarn workspaces list",
-    "destroy:all": "yarn workspace "
+    "list": "yarn workspaces list"
   },
   "workspaces": {
     "packages": [
