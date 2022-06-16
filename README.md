@@ -26,6 +26,7 @@ This is a sample project to showcase typescript backend monorepo with AWS CDK
   - [AWS setup](./docs/infra/aws-setup.md)
   - [Bootstrap CDK](./docs/infra/cdk-bootstrap-and-setup.md)
   - [Deploy component one](./src/components/component-one/README.md)
+  - [Deploy component two](./src/components/component-two/README.md)
 - [Architecture Decision Records](./docs/adr/index.md)
 
 ## Infra code features

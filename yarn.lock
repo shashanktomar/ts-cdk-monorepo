@@ -1552,6 +1552,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "component-two@workspace:src/components/component-two"
   dependencies:
+    "@types/aws-lambda": ^8.10.99
+    "@types/node": 10.17.27
+    aws-cdk: 2.27.0
+    aws-cdk-lib: 2.27.0
+    cdk-core: "workspace:*"
+    common-lib: "workspace:*"
+    constructs: ^10.0.0
     typescript: ^4.7.3
   languageName: unknown
   linkType: soft
